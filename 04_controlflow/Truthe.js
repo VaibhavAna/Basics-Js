@@ -22,5 +22,23 @@ if (usermail.length===0){
 
 const emptyobj={}
 if (Object.keys(emptyobj).length===0){
-    console.lof("obj is empty");
+    console.log("obj is empty");
 }
+
+// Nullish Coalescing Operator (??): null undefined
+
+let val1;
+//val1 =4 ??6
+//val1=null??3
+//val1=undefined ?? 10
+//val1=null??10??13
+
+console.log(val1);
+
+//Terniary Operator 
+
+//Condition ?true:false
+
+const iceTeaprice=100
+iceTeaprice>=80? console.log("less then 80"):console.log("more than 80")
+
